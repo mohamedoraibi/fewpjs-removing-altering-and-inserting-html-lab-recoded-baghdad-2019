@@ -2,4 +2,6 @@ document.getElementById("main").remove();
 
 let element = document.createElement('h1');
 document.body.appendChild(element);
-element = document.createElement('h1');
+document.getElementsByTagName("h1")[0].setAttribute("id", "victory");
+let newHeader = document.getElementById('victory');
+
