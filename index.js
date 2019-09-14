@@ -5,4 +5,4 @@ document.body.appendChild(element);
 document.getElementsByTagName("h1")[0].setAttribute("id", "victory");
 let newHeader = document.getElementById('victory');
 let NAME="mohamed"
-document.getElementById("victory").innerHTML(`${NAME} is the champion`);
+document.getElementById("victory").innerHTML(`${'NAME'} is the champion`);
